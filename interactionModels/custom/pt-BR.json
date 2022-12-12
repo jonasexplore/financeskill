@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "finance skill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetInvestmentsInfo",
+          "slots": [],
+          "samples": [
+            "sim",
+            "quero",
+            "gostaria"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "4"
+}

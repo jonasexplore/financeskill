@@ -1,0 +1,80 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:652853012791:function:dd6320cd-dfa1-40f0-84dc-97bf11489675:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:652853012791:function:dd6320cd-dfa1-40f0-84dc-97bf11489675:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:652853012791:function:dd6320cd-dfa1-40f0-84dc-97bf11489675:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:652853012791:function:dd6320cd-dfa1-40f0-84dc-97bf11489675:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::devices:all:address:full:read"
+      },
+      {
+        "name": "alexa::profile:name:read"
+      },
+      {
+        "name": "alexa::profile:email:read"
+      },
+      {
+        "name": "alexa::profile:mobile_number:read"
+      },
+      {
+        "name": "alexa::household:lists:read"
+      },
+      {
+        "name": "alexa::household:lists:write"
+      },
+      {
+        "name": "payments:autopay_consent"
+      },
+      {
+        "name": "alexa::alerts:reminders:skill:readwrite"
+      },
+      {
+        "name": "alexa::devices:all:geolocation:read"
+      },
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "pt-BR": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa abra finance skill",
+            "olá",
+            "ajuda"
+          ],
+          "keywords": [],
+          "name": "financeskill",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
